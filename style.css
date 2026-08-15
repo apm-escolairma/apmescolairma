@@ -38,7 +38,7 @@ a{text-decoration:none;color:inherit}
     
   background-position: center, right center;
   background-repeat: no-repeat;
-  background-size: 100% 100%, 50% auto;}
+  background-size: 100% 100%, 30% auto;}
 .hero-content{display:flex;align-items:center;padding:65px 0}
 .hero-text{max-width:500px}
 .kicker{font-size:4.6rem;font-weight:800;color:var(--azul);margin:0}
