@@ -22,7 +22,23 @@ a{text-decoration:none;color:inherit}
 .menu a{padding:35px 0 28px;border-bottom:3px solid transparent}
 .menu a:hover,.menu a.active{color:var(--azul);border-bottom-color:var(--amarelo)}
 .whatsapp{background:var(--azul);color:#fff;padding:14px 20px;border-radius:10px;font-weight:700}
-.hero{min-height:510px;display:flex;align-items:stretch;background:linear-gradient(90deg,#edf2f7 0%,rgba(237,242,247,.88) 37%,rgba(13,57,105,.12) 62%),url("escola.jpg") center/cover}
+.hero{min-height:510px;
+  display:flex;
+  align-items:stretch;
+  background:
+    linear-gradient(
+      90deg,
+      #edf2f7 0%,
+      rgba(237,242,247,.96) 32%,
+      rgba(237,242,247,.65) 47%,
+      rgba(13,57,105,.08) 62%,
+      rgba(13,57,105,.02) 100%
+    ),
+    url("escola.jpg");
+    
+  background-position: center, right center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%, 72% auto;}
 .hero-content{display:flex;align-items:center;padding:65px 0}
 .hero-text{max-width:500px}
 .kicker{font-size:4.6rem;font-weight:800;color:var(--azul);margin:0}
