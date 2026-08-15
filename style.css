@@ -36,7 +36,7 @@ a{text-decoration:none;color:inherit}
     ),
     url("escola.jpg");
     
-  background-position: center, center;
+  background-position: center, 70% center;
   background-repeat: no-repeat;
   background-size: 100% 100%, 35% auto;}
 .hero-content{display:flex;align-items:center;padding:65px 0}
